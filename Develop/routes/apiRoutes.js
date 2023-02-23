@@ -43,6 +43,13 @@ function addNote(note) {
     .then((updatedNotes) => write(updatedNotes))
     .then(() => newNote);
 }
+function removeNote(id) {
+  // Get all notes, remove the note with the given id, write the filtered notes
+  return getNotes()
+    .then((notes) => notes.filter((note) => note.id !== id))
+    .then((filteredNotes) => write(filteredNotes));
+}
+
 // GET "/api/notes" responds with all notes from the database
 router.get("/notes", (req, res) => {
   getNotes()
