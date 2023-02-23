@@ -7,6 +7,9 @@ const { v4: uuidv4 } = require("uuid");
 
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
+function read() {
+  return readFileAsync("db/db.json", "utf8");
+}
 
 // GET "/api/notes" responds with all notes from the database
 router.get("/notes", (req, res) => {
@@ -18,7 +21,6 @@ router.get("/notes", (req, res) => {
 });
 //
 router.post("/notes", (req, res) => {
-  // log
   addNote(req.body)
     .then((note) => res.json(note))
     .catch((err) => res.status(500).json(err));
