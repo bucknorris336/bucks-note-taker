@@ -10,6 +10,9 @@ const writeFileAsync = util.promisify(fs.writeFile);
 function read() {
   return readFileAsync("db/db.json", "utf8");
 }
+function write(note) {
+  return writeFileAsync("db/db.json", JSON.stringify(note));
+}
 
 // GET "/api/notes" responds with all notes from the database
 router.get("/notes", (req, res) => {
