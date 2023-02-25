@@ -29,9 +29,9 @@ Check out the deployed app here: [Note Taker](https://salty-gorge-36612.herokuap
 
 ## Screen Shots
 
-![screencapture-salty-gorge-36612-herokuapp-2023-02-25-17_20_07.png](screencapture-salty-gorge-36612-herokuapp-2023-02-25-17_20_07.png)
+![assets/salty-gorge-1.png](assets/salty-gorge-1.png)
 
-![screencapture-salty-gorge-36612-herokuapp-notes-2023-02-25-17_25_12.png](screencapture-salty-gorge-36612-herokuapp-notes-2023-02-25-17_25_12.png)
+![assets/salty-gorge-2.png](assets/salty-gorge-2.png)
 
 ---
 
