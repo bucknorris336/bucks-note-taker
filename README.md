@@ -1,16 +1,12 @@
 # bucks-note-taker
 
-Check out a short video walkthrough
-📽️
-
-<!-- [Click Here](https://drive.google.com/file/d/1ljxKq1PLPN0pvI-usJfvEuIe326udFoV/view?usp=sharing) -->
-
 ---
 
 ## Table of Contents
 
 - [Description](#Description)
 - [Website Link](#website-link)
+- [Screen Shots](#screen-shots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#Contributing)
@@ -20,19 +16,30 @@ Check out a short video walkthrough
 ## Description
 
 ```
-I created a note taker application that accepts user input infromation. It can be used to write and save notes. The app uses an Express.js back end and will save and retrieve user generated note data from a JSON file. The application’s front end has already been created. It was my job to build the back end, connect the two, and then deploy the finished application to Heroku.
+I created a note taker application that accepts user input infromation. It can be used to write and save notes. The app uses an Express.js back end and will save and retrieve user generated note data from a JSON file. The application’s front end has already been created. I built the back end, connected the two, and then deploy the finished application to Heroku.
 ```
+
 ---
+
 ## Website Link
 
-Check out the deployed app here: Note Taker
+Check out the deployed app here: [Note Taker](https://salty-gorge-36612.herokuapp.com/)
 
 ---
+
+## Screen Shots
+
+![screencapture-salty-gorge-36612-herokuapp-2023-02-25-17_20_07.png](screencapture-salty-gorge-36612-herokuapp-2023-02-25-17_20_07.png)
+
+![screencapture-salty-gorge-36612-herokuapp-notes-2023-02-25-17_25_12.png](screencapture-salty-gorge-36612-herokuapp-notes-2023-02-25-17_25_12.png)
+
+---
+
 ## Installation
 
 💾
 
-<!-- `npm install` [inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) -->
+In the command line run `npm install` to install [Express.js](https://expressjs.com/)
 
 ---
 
@@ -40,15 +47,7 @@ Check out the deployed app here: Note Taker
 
 💻
 
-Run the following command at th root of your project and answer the prompted questions:
-
-`node index.js`
-
----
-
-## Tests
-
-Run `npm run test` to run [Jest](https://jestjs.io/) for tests on constructors.
+Type `npm run start` in the command line
 
 ---
 

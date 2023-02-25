@@ -27,9 +27,10 @@ function getNotes() {
     return parsedNotes;
   });
 }
+// function to add a new note
 function addNote(note) {
   const { title, text } = note;
-
+  // if statement to give error message if user submits blank title or text
   if (!title || !text) {
     throw new Error("Note 'title' and 'text' cannot be blank");
   }
@@ -71,5 +72,4 @@ router.delete("/notes/:id", (req, res) => {
     .then(() => res.json({ ok: true }))
     .catch((err) => res.status(500).json(err));
 });
-
 module.exports = router;
