@@ -62,7 +62,6 @@ In the command line run `npm install`
 💻
 
 Type `npm run start` in the command line
-// to generate the local lost
 
 ---
 
